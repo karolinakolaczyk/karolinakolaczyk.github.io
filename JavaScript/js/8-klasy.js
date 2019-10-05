@@ -13,7 +13,7 @@ this.kolor = kolor;
 
     }
     wyswietlInfo() {
-        console.log(`
+        document.body.insertAdjacentHTML("beforeEnd", `
         Samochód\n
         Marka: ${this.marka}\n
         Model: ${this.model}\n
@@ -21,6 +21,7 @@ this.kolor = kolor;
         Silnik: ${this.silnik}\n
         Rok: ${this.rok}\n
         Kolor: ${this.kolor}
+        <br>
         `);
     }
 
@@ -37,5 +38,24 @@ let auto1 = new Samochod(
     "zielony"
 );
 
-console.log(auto1);
-console.log(kolekcjaAut);
+auto1.wyswietlInfo();
+auto1.zapiszDoBazy();
+
+auto1 = new Samochod(
+    "Audi",
+    "A6",
+    4000,
+    "diesel",
+    2019,
+    "czerwony"
+);
+
+auto1.wyswietlInfo();
+
+//console.log(kolekcjaAut);
+
+console.log(kolekcjaAut [0].marka);
+
+kolekcjaAut.forEach(function(elementTablicy, indexTablicy) {
+    console.log(elementTablicy.marka, elementTablicy.model, elementTablicy.kolor, indexTablicy);
+})

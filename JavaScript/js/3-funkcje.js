@@ -21,10 +21,13 @@ const mnozenieFatArrow = (par1, par2, par3) => {
 }
 
 let wynikMnozeniaFatArrow = mnozenieFatArrow(3,3,3);
-console.log(wynikMnozeniaFatArrow);
+//console.log(wynikMnozeniaFatArrow);
 
 // Przepisanie powyzszej funkcji na funkcję strzałkową - skrótowo
 
-const mnozenieSkrotowo = (p1, p2, p3) => `Twój wynik to:  ${p1 * p2 * p3}`;
+const mnozenieSkrotowo = (p1, p2, p3) => `Szanowny userze, Twój wynik to:  ${p1 * p2 * p3}, pozdrawiamy`;
 let wynikSkrotowo = mnozenieSkrotowo(1,2,3);
-console.log(wynikSkrotowo);
+let wynikSkrotowo2 = mnozenieSkrotowo(4,2,3);
+let wynikSkrotowo3 = mnozenieSkrotowo(3,2,3);
+let wynikSkrotowo4 = mnozenieSkrotowo(1,1,3);
+console.log(wynikSkrotowo, wynikSkrotowo2, wynikSkrotowo3, wynikSkrotowo4);

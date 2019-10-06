@@ -33,7 +33,7 @@ let jsonOsoby = {
    ]
 };
 jsonOsoby.osoby.forEach(function(elementTablicy, indexTablicy) {
-    let osoba = `Imię: ${elementTablicy.imie}, nazwisko: ${elementTablicy.nazwisko}, wzrost: ${elementTablicy.wzrost}, zainteresowania `;
+    let osoba = `Imię: ${elementTablicy.imie}, nazwisko: ${elementTablicy.nazwisko}, wzrost: ${elementTablicy.wzrost}, zainteresowania: `;
     let dodatkowyText = `brak`;
     if(elementTablicy.zainteresowania.length > 0) {
         dodatkowyText = ``;

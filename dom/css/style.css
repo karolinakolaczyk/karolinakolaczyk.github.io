@@ -1,3 +1,12 @@
 body {
-    background-color: aquamarine;
+    min-height: 400vh;
+    transition: all .6s ease-in-out;
+}
+
+body.scroll {
+    background-color: aquamarine; 
+}
+
+body.scroll-2 {
+    background-color: lightpink; 
 }

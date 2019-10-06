@@ -1,3 +1,4 @@
+// przykładowa odpowiedź z API
 let jsonOsoby = {
    "osoby": [
        {
@@ -5,10 +6,7 @@ let jsonOsoby = {
            nazwisko: "Dziopa", 
            wzrost: 180, 
            oczy: "niebieskie", 
-           zainteresowania: [ 
-               { nazwa: "podroze" }, 
-               { nazwa: "gotowanie" }
-           ] 
+           zainteresowania: [] 
        },
        {
            imie: "Dominik",
@@ -33,4 +31,17 @@ let jsonOsoby = {
            
        }
    ]
-}
+};
+jsonOsoby.osoby.forEach(function(elementTablicy, indexTablicy) {
+    let osoba = `Imię: ${elementTablicy.imie}, nazwisko: ${elementTablicy.nazwisko}, wzrost: ${elementTablicy.wzrost}, zainteresowania `;
+    let dodatkowyText = `brak`;
+    if(elementTablicy.zainteresowania.length > 0) {
+        dodatkowyText = ``;
+        elementTablicy.zainteresowania.forEach(function(element, index) {
+            dodatkowyText += `${element.nazwa}, `;
+
+        });
+    };
+    osoba += dodatkowyText;
+    console.log(osoba);
+});

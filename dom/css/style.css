@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 400vh;
     transition: all .6s ease-in-out;

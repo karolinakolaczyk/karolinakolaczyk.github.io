@@ -10,3 +10,13 @@ body.scroll {
 body.scroll-2 {
     background-color: lightpink; 
 }
+
+h1 {
+    transition: all .3s ease-in-out;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 25px;
+    background: paleturquoise;
+    z-index: 2;
+}

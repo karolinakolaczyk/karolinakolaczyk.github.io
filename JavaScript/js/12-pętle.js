@@ -27,12 +27,17 @@ for(let i in obj) {
 
 // pętla while
 let number = 10;
-let iter = 0;
+let iter = 11;
 let wynik = [];
 
 while(iter <= number) {
     wynik.push(`iteracja nr ${iter + 1}`);
     iter++;
 }
+
+do {
+    wynik.push(`iteracja nr ${iter + 1}`);
+    iter++;
+} while(iter <= number)
 //console.log(wynik.join(" :::: "));
 console.log(wynik.join(" \n "));

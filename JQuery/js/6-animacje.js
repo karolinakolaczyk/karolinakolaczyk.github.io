@@ -1,5 +1,5 @@
 $(function() {
-    'use strict';
+   'use strict';
 
 
     //Efekt hide i show
@@ -46,7 +46,7 @@ $(function() {
         $("h2").animate({"color": "pink"}, 2000);
         
     
-    }
+    }; 
     $("h2").animate({"font-size": "3em", "margin-left": "100px"}, 2000, koniecAnimacji2);
 
 });

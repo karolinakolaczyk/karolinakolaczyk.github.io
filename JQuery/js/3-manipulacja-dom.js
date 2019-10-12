@@ -28,8 +28,13 @@ $("strong").remove();
 $(".paragraf").empty();
 
 //Dodawanie CSS
+//$(".paragrafnext").css("color", "blue");
 $(".paragrafnext").css({ 'font-size': '3em' , 'color': 'red' });
 
-//Dodawanie klasys
+$("input#imie").val("Karolina");
+
+//Dodawanie klasy
 $("h1").addClass("blue");
 
+//Dodawanie atrybutu
+$("h1").attr("imie", "Marcin");

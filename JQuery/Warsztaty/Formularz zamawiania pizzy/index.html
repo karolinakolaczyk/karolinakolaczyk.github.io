@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form id="pizza-order" class="pizza-order" action="">
+    <fieldset> 
+            <label for="imie">Imię:</label><br />
+            <input type="text" name="imie" id="imie" class="imie"><br />
+            <label for="nazwisko">Nazwisko:</label><br />
+            <input type="text" name="nazwisko" id="nazwisko" class="nazwisko"><br />
+            <label for="ulica">Ulica:</label><br />
+            <input type="text" name="ulica" id="ulica" class="ulica"><br />
+            <label for="numer">Numer:</label><br />
+            <input type="number" name="numer" id="numer" class="numer"><br />
+            <label for="kod">Kod pocztowy:</label><br />
+            <input type="text" name="kod" id="kod" class="kod"><br />
+            <label for="miasto">Miasto:</label><br />
+            <input type="text" name="miasto" id="miasto" class="miasto"><br />
+            <label for="pizzaType">Typ pizzy:</label><br />
+            <select name="pizzaType">
+                <option value="0" selected>--Wybierz pizzę--</option>
+                <option value="1">Hawajska</option>
+                <option value="2">Włoska</option>
+                <option value="3">Domowa</option>
+                <option value="4">Wegetariańska</option>
+                <option value="5">Jalapeno</option>
+            </select>
+           
+            <span id="price" class="price">0 PLN</span><br />
+
+
+<input type="checkbox" id="tomato-sauce" class="tomato-sauce">
+<label for="tomato-sauce">Sos pomidorowy</label><br />
+<input type="checkbox" id="garlic-sauce" class="garlic-sauce">
+<label for ="garlic-sauce">Sos czosnkowy</label><br />
+
+            <input type="checkbox" id="agree" class="agree">
+            <label for="agree">Zgoda na RODO itp.
+            </label><br />
+
+            <input type="submit" value="Zamów" />
+            <ul id="errors" class="errors"></ul>
+    </fieldset>
+    
+    
+</form>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script src="js/formularz.js"></script>
+</body>
+</html>

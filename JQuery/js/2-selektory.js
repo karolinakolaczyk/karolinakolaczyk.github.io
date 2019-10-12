@@ -10,3 +10,5 @@ let srcAtrybut = $("[src]");
 console.log(srcAtrybut);
 
 //pobieranie elementów po id
+// var paragraphOne = $("#paragraf");
+//console.log(paragraphOne);

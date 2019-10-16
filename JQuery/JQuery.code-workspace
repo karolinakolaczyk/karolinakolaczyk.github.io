@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "/Users/karolinakolaczyk/Documents/GitHub/karolinakolaczyk.github.io/dom"
+		},
+		{
+			"path": "/Users/karolinakolaczyk/Documents/GitHub/karolinakolaczyk.github.io/JavaScript"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JQuery"
+	}
+}

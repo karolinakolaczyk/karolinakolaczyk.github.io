@@ -3,6 +3,12 @@ body {
   color: #0a0a0a;
   font-size: 15px; }
 
+p {
+  color: #bbbb;
+  background-color: #000;
+  text-transform: uppercase;
+  font-family: sans-serif; }
+
 nav ul {
   margin: 15px;
   padding: 0px;
@@ -10,3 +16,7 @@ nav ul {
   nav ul li {
     display: inline-block;
     background-color: #fff; }
+    nav ul li a {
+      color: #bbbb;
+      background-color: #000;
+      text-transform: uppercase; }

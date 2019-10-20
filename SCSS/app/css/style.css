@@ -1,3 +1,12 @@
 body {
-  background-color: aquamarine;
-  color: #0a0a0a; }
+  background-color: #bbbb;
+  color: #0a0a0a;
+  font-size: 15px; }
+
+nav ul {
+  margin: 15px;
+  padding: 0px;
+  list-style: none; }
+  nav ul li {
+    display: inline-block;
+    background-color: #fff; }

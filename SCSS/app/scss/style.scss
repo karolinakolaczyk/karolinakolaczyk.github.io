@@ -1,6 +1,19 @@
 @import "zmienne";
 
 body {
-    background-color: aquamarine;
+    background-color: $bg-color;
     color: $main-color;
+    font-size: $size;
+}
+
+nav {
+    ul {
+        margin: $size;
+        padding: 0px;
+        list-style: none;
+        li {
+            display: inline-block;
+            background-color: #fff;
+        }
+    }
 }

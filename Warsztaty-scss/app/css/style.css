@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0; }
+
+body {
+  color: #ffffff;
+  background-color: #292929;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px; }
+
+.icon-large {
+  font-size: 2em; }
+
+.txt-large {
+  font-size: 1.7em;
+  font-weight: 600;
+  letter-spacing: 2px; }
+
+.txt-normal {
+  font-size: 2em; }
+
+.txt-small {
+  font-size: 0.8em; }
+
+.txt-highlight {
+  color: #ecd407; }
+
+#main-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  text-align: center;
+  padding-top: 10px; }
+
+#header-logo {
+  display: inline-block;
+  width: 49%; }
+  #header-logo div {
+    display: inline-block;
+    margin: 3px; }
+
+#header-phone-number {
+  display: inline-block;
+  width: 49%; }
+  #header-phone-number div {
+    display: inline-block;
+    margin: 3px; }
+
+#contact-form {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 95vh; }
+
+form {
+  position: relative;
+  left: 700px;
+  background-color: #001d8a;
+  line-height: 2em;
+  width: 20%;
+  top: 30vh; }
+
+#contact-data {
+  text-align: center;
+  padding: 0 100px 5px 100px;
+  margin: 50px 0 50px 0; }
+
+#column-left {
+  display: inline-block;
+  padding: 0 50px 0px 50px;
+  width: 49%; }
+  #column-left div {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
+    line-height: 2em;
+    color: #000000;
+    background-color: #efae39;
+    border: none; }
+  #column-left p {
+    font-size: 1.2em;
+    padding: 1em;
+    font-weight: 300;
+    text-align: left; }
+
+#column-right {
+  display: inline-block;
+  padding: 0 50px 0px 50px;
+  width: 49%; }
+  #column-right div {
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
+    line-height: 2em;
+    color: #000000;
+    background-color: #efae39;
+    border: none; }
+  #column-right p {
+    font-size: 1.2em;
+    padding: 1em;
+    font-weight: 300;
+    text-align: left; }
+
+#footer {
+  text-align: center;
+  padding: 0 100px 5px 100px;
+  bottom: 0; }

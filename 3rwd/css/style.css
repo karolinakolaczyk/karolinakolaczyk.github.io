@@ -12,7 +12,7 @@ body{
 @media(min-width: 1170px){
     .header1{
         height: 100vh;
-        background-image: url('../img/man-1.jpg');
+        background-image: url("file:///Users/karolinakolaczyk/Documents/GitHub/karolinakolaczyk.github.io/3rwd/obrazy/man-1.jpg");
         background-size: cover;
         background-position: center;
         text-transform: uppercase;
@@ -38,7 +38,7 @@ body{
 @media(min-width: 992px) and (max-width: 1170px){
     .header1{
         height: 70vh;
-        background-image: url('../img/man-2.jpg');
+        background-image: url("file:///Users/karolinakolaczyk/Documents/GitHub/karolinakolaczyk.github.io/3rwd/obrazy/man-1.jpg");
         background-size: cover;
         background-position: center;
         text-transform: uppercase;
@@ -66,7 +66,7 @@ body{
 @media(min-width: 0px) and (max-width: 992px){
     .header1{
         height: 50vh;
-        background-image: url('../img/man-1.jpg');
+        background-image: url("file:///Users/karolinakolaczyk/Documents/GitHub/karolinakolaczyk.github.io/3rwd/obrazy/man-1.jpg");
         background-size: cover;
         background-position: center;
                 
